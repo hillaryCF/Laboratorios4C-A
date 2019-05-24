@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+  text-transform: capitalize;
+  display: inline-block;
+  margin-left: 12px;
+}
+.clearfix::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.banner {
+margin-top: 20px;
+}
+.banner-first {
+  margin-left: 15px;
+}
+.img-banner {
+  max-width: 100%;
+}
+.container-post {
+  padding: 12px;
+}
+.header-post {
+  width: 20%;
+  display: inline-block;
+  position: relative;
+}
+.photo {
+  max-width: 100%;
+}
+.tittle-post{
+  display: inline-block;
+  padding-top: -34px;
+  position: absolute;
+  margin-left: 12px;
+}
+.heard-icon {
+  max-width: 8%;
+}
+.share-icon {
+  max-width: 7%;
+  margin-left: 4px
+}
+.container-post-related{
+  margin-left: 15px;
+  margin-top: 50px;
+}
+.post-related{
+  width: 80%;
+  margin-left: 33px;
+}
+.date-post-related{
+  color: #5e605a;
+  margin: 12px 12px 12px 0;
+}
+.button-post-related{
+  background: #7ea940;
+  color: white;
+  margin-left: 94px;
+  margin-bottom: 47px;
+  padding: 10px 21px;
+  font-size: 15px;
+  border: 0;
+}
+.footer {
+  margin-top: 30px;
+  background: #409399;
+}
+.logo-footer{
+  padding-top: 10px;
+  text-align: center;
+}
+.img-logo-footer{
+  width: 20%;
+}
+.menue-list{
+  color: white;
+}
+.redes{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.icon {
+  width: 10%;
+}
+.container-hamburguer::after {
+  content: '';
+    height: 3px;
+    background: #252525;
+    position: absolute;
+    top: 2%;
+    width: 25px;
+    left: 14px;
+}
+.container-hamburguer::before {
+  content: '';
+    height: 3px;
+    background: #252525;
+    position: absolute;
+    top: 3%;
+    width: 25px;
+    left: 14px;
+}
+.container-hamburguer{
+  cursor: pointer;
+}
+.container-logo {
+  display: inline-block;
+}
+.botton-menue {
+  width: 37%
+}
+.menu-hamburger{
+  width: 25%;
+}
+.logo-header{
+  width: 14%;
+  margin-left: 123px;
+}
+.img-photo {
+  width: 100%;
+}
+.icon:hover{
+  background: white;
+  border-radius: 100%;
+}
