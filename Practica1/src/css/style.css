@@ -13,12 +13,8 @@ li {
   list-style: none;
   text-transform: capitalize;
   display: inline-block;
-  margin-left: 12px; }
-
-.clearfix::after {
-  display: block;
-  content: "";
-  clear: both; }
+  margin-left: 9px;
+  font-size: 14px; }
 
 .banner {
   margin-top: 20px; }
@@ -28,9 +24,6 @@ li {
 
 .img-banner {
   max-width: 100%; }
-
-.container-post {
-  padding: 12px; }
 
 .header-post {
   width: 20%;
@@ -53,10 +46,6 @@ li {
   max-width: 7%;
   margin-left: 4px; }
 
-.container-post-related {
-  margin-left: 15px;
-  margin-top: 50px; }
-
 .post-related {
   width: 80%;
   margin-left: 33px; }
@@ -64,15 +53,6 @@ li {
 .date-post-related {
   color: #5e605a;
   margin: 12px 12px 12px 0; }
-
-.button-post-related {
-  background: #7ea940;
-  color: white;
-  margin-left: 94px;
-  margin-bottom: 47px;
-  padding: 10px 21px;
-  font-size: 15px;
-  border: 0; }
 
 .footer {
   margin-top: 30px;
@@ -82,18 +62,33 @@ li {
   padding-top: 10px;
   text-align: center; }
 
-.img-logo-footer {
-  width: 20%; }
-
-.menue-list {
-  color: white; }
-
 .redes {
   text-align: center;
   padding-bottom: 10px; }
 
-.icon {
-  width: 10%; }
+.botton-menue {
+  width: 37%; }
+
+.menu-hamburger {
+  width: 25%; }
+
+.logo-header {
+  width: 14%;
+  margin-left: 123px; }
+
+.img-photo {
+  width: 100%; }
+
+.icon:hover {
+  background: white;
+  border-radius: 100%; }
+
+.menue-list {
+  color: white; }
+
+.container-post-related {
+  margin-left: 15px;
+  margin-top: 50px; }
 
 .container-hamburguer::after {
   content: '';
@@ -119,26 +114,46 @@ li {
 .container-logo {
   display: inline-block; }
 
-.botton-menue {
-  width: 37%; }
+.container-post {
+  padding: 12px; }
 
-.menu-hamburger {
-  width: 25%; }
-
-.logo-header {
-  width: 14%;
-  margin-left: 123px; }
+.container-menue {
+  padding-top: 16px; }
 
 .img-photo {
   width: 100%; }
+
+.img-logo-footer {
+  width: 15%; }
+
+.img-banner {
+  max-width: 100%; }
+
+.heard-icon {
+  max-width: 8%; }
+
+.share-icon {
+  max-width: 7%;
+  margin-left: 4px; }
+
+.logo-footer {
+  padding-top: 10px;
+  text-align: center; }
+
+.icon {
+  width: 10%; }
 
 .icon:hover {
   background: white;
   border-radius: 100%; }
 
-.container-menue::after {
-  content: "";
-  display: block;
-  clear: both; }
+.button-post-related {
+  background: #7ea940;
+  color: white;
+  margin-left: 94px;
+  margin-bottom: 47px;
+  padding: 10px 21px;
+  font-size: 15px;
+  border: 0; }
 
 /*# sourceMappingURL=style.css.map */

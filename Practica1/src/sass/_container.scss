@@ -1,0 +1,34 @@
+.container-post-related{
+  margin-left: 15px;
+  margin-top: 50px;
+}
+.container-hamburguer::after {
+  content: '';
+    height: 3px;
+    background: #252525;
+    position: absolute;
+    top: 2%;
+    width: 25px;
+    left: 14px;
+}
+.container-hamburguer::before {
+  content: '';
+    height: 3px;
+    background: #252525;
+    position: absolute;
+    top: 3%;
+    width: 25px;
+    left: 14px;
+}
+.container-hamburguer{
+  cursor: pointer;
+}
+.container-logo {
+  display: inline-block;
+}
+.container-post {
+  padding: 12px;
+}
+.container-menue {
+  padding-top: 16px;
+}
