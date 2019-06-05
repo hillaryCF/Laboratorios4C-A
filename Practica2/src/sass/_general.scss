@@ -2,90 +2,104 @@ body{
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
+
+p{
+  margin: 0;
+}
 a{
   text-decoration: none;
   color: black;
 }
-ul{
-  padding: 0;
-}
-li{
-  list-style: none;
-  text-transform: capitalize;
-  display: inline-block;
-  margin-left: 9px;
-  font-size: 14px;
-}
-.banner {
-margin-top: 20px;
-}
-.banner-first {
-  margin-left: 15px;
-}
-.img-banner {
-  max-width: 100%;
-}
-.header-post {
-  width: 20%;
-  display: inline-block;
-  position: relative;
-}
+
 .photo {
   max-width: 100%;
 }
-.tittle-post{
-  display: inline-block;
-  padding-top: -34px;
-  position: absolute;
-  margin-left: 12px;
-}
-.heard-icon {
-  max-width: 8%;
-}
-.share-icon {
-  max-width: 7%;
-  margin-left: 4px
-}
 
-.post-related{
-  width: 80%;
-  margin-left: 33px;
-}
-.date-post-related{
-  color: #5e605a;
-  margin: 12px 12px 12px 0;
-}
-
-
-.footer {
-  margin-top: 30px;
-  background: #409399;
-}
-
-.logo-footer{
-  padding-top: 10px;
-  text-align: center;
-}
-
-.redes{
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.botton-menue {
-  width: 37%
-}
-.menu-hamburger{
-  width: 25%;
-}
 .logo-header{
-  width: 14%;
-  margin-left: 123px;
+  width: 16%;
+  margin-left: 50px;
+  padding-top: 10px;
 }
-.img-photo {
-  width: 100%;
+
+.banner-first {
+  margin-top: 10px;
+  grid-column: 1/4;
 }
-.icon:hover{
-  background: white;
-  border-radius: 100%;
-}
+// ul{
+//   padding: 0;
+// }
+// li{
+//   list-style: none;
+//   text-transform: capitalize;
+//   display: inline-block;
+//   margin-left: 9px;
+//   font-size: 14px;
+// }
+
+
+// .img-banner {
+//   max-width: 100%;
+// }
+// .header-post {
+
+//   grid-column: 1/2;
+//   grid-row: 1/2;  
+//   width: 20%;
+
+// }
+// .photo {
+//   max-width: 100%;
+// }
+// .tittle-post{
+//   display: inline-block;
+//   padding-top: -34px;
+//   position: absolute;
+//   margin-left: 12px;
+// }
+// .heard-icon {
+//   max-width: 8%;
+// }
+// .share-icon {
+//   max-width: 7%;
+//   margin-left: 4px
+// }
+
+// .post-related{
+//   width: 80%;
+//   margin-left: 33px;
+// }
+// .date-post-related{
+//   color: #5e605a;
+//   margin: 12px 12px 12px 0;
+// }
+
+
+// .footer {
+//   margin-top: 30px;
+//   background: #409399;
+// }
+
+// .logo-footer{
+//   padding-top: 10px;
+//   text-align: center;
+// }
+
+// .redes{
+//   text-align: center;
+//   padding-bottom: 10px;
+// }
+
+// .botton-menue {
+//   width: 37%
+// }
+// .menu-hamburger{
+//   width: 25%;
+// }
+
+// .img-photo {
+//   width: 100%;
+// }
+// .icon:hover{
+//   background: white;
+//   border-radius: 100%;
+// }
