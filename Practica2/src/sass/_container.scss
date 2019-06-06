@@ -39,12 +39,11 @@
 }
 
 // content post
-.content-post{
+.content-post {
   display: grid;
-  grid-template-columns: 50px 100px 150px;
-  grid-template-rows: 60px 30px 180px 1fr 50px;
+  grid-template-columns: 50px 1fr 1fr;
+  grid-template-rows: 60px 30px 1fr;
   grid-gap: 4px;
-
 }
 .header-post {
   grid-column: 1/2;
@@ -71,8 +70,14 @@
 .img-photo{
   max-width: 100%;
 }
-.heard-icon{
+.container-icon{
   grid-column: 1/2;
   grid-row: 5/6;
   padding-left: 3px;
+}
+.heard-icon {
+  display: grid;
+  grid-template-columns: 10% 10%;
+  grid-gap: 10px;
+  margin-left: 5px;
 }
