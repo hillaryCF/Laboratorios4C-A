@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .grid-padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 140px 220px 140px 70px 120px 90px 85px;
+  }
+  .sia{
+    display: inline;
+    grid-column: 2/4;
+    grid-row: 2/5;
+    z-index: 300;
+    width: 433px;
+  }
+  .labri{
+    width: 290px;
+    margin-left: 34px;
+  }
+  .letras {
+    margin-left: 100px;
+}
+}
