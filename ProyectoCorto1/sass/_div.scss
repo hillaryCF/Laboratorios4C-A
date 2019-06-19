@@ -1,0 +1,55 @@
+.grid-padre{
+  display: grid;
+  grid-template-columns: 59px 100px 1fr;
+  grid-template-rows: 140px 220px 140px 70px 120px 90px 85px;
+}
+.rosado {
+  background: #f8a7f6;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+.anaranjado{
+  background: #eca544;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+.amarillo{
+  background: #fefc11;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+.celeste2{
+  background: #61c4fb;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 6/7;
+}
+.amarillo2{
+  background: #fefc11;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+.rosado2{
+  background: #f8a7f6;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+.anaranjado2{
+  background: #eca544;
+  grid-column: 1/4;
+  grid-row: 7/8;
+}
+.letras{
+  text-transform: uppercase;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 50px 50px; 
+  grid-gap: 4px;
+  margin-left: 10px;
+}

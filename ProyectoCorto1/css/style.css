@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: 'B612 Mono', monospace; }
+
+.name-labri {
+  grid-column: 3/4;
+  grid-row: 2/3; }
+
+.name-sia {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  padding-left: 30px; }
+
+.name-diplo {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  padding-left: 30px; }
+
+.name-diplo:hover {
+  color: white; }
+
+.name-sia:hover {
+  color: white; }
+
+.name-labri:hover {
+  color: white; }
+
+.tittle-tour {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 35px;
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  grid-row: 5/7;
+  grid-column: 1/2;
+  align-self: start;
+  margin-top: 27px; }
+
+.year {
+  font-size: 35px;
+  grid-row: 5/6;
+  grid-column: 2/3;
+  margin-top: 21px; }
+
+.info-tour {
+  text-transform: capitalize; }
+
+.lugar {
+  grid-column: 2/3;
+  grid-column: 2/4;
+  grid-row: 5/6;
+  align-self: end; }
+
+.fecha {
+  grid-column: 2/4;
+  grid-row: 6/7; }
+
+.ticket {
+  grid-column: 2/4;
+  grid-row: 6/7;
+  align-self: end;
+  color: black; }
+
+.productora {
+  text-transform: capitalize;
+  font-size: 10px; }
+
+.nombreProductora {
+  grid-column: 1/3;
+  grid-row: 7/8; }
+
+.telProductora {
+  grid-column: 1/3;
+  grid-row: 7/8; }
+
+.grid-padre {
+  display: grid;
+  grid-template-columns: 59px 100px 1fr;
+  grid-template-rows: 140px 220px 140px 70px 120px 90px 85px; }
+
+.rosado {
+  background: #f8a7f6;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 3/4; }
+
+.anaranjado {
+  background: #eca544;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 2/3; }
+
+.amarillo {
+  background: #fefc11;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 1/2; }
+
+.celeste2 {
+  background: #61c4fb;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 6/7; }
+
+.amarillo2 {
+  background: #fefc11;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 4/5; }
+
+.rosado2 {
+  background: #f8a7f6;
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 5/6; }
+
+.anaranjado2 {
+  background: #eca544;
+  grid-column: 1/4;
+  grid-row: 7/8; }
+
+.letras {
+  text-transform: uppercase;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 4px;
+  margin-left: 10px; }
+
+.labri {
+  z-index: 200;
+  grid-row: 2/5;
+  grid-column: 1/2;
+  width: 308px; }
+
+.lsd {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 200;
+  width: 290px;
+  padding-left: 14px;
+  padding-top: 11px; }
+
+/*# sourceMappingURL=style.css.map */
